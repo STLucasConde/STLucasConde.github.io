@@ -50,7 +50,9 @@ header{
     background-attachment: fixed;
 }
 .contenedor-texto{
-    height: 15rem;
+    position: absolute;
+    top: 5em;
+    height: 30em;
     text-align: center;
     font-family: 'Akaya Telivigala', cursive;
 }
@@ -60,6 +62,7 @@ header{
 .texto{
     color: #FFF;
     font-size: 2em;
+
 }
 .contenedor-texto p{
     font-size: 2em;
