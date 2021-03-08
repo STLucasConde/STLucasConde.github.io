@@ -48,27 +48,24 @@ header{
     background: linear-gradient(to left, hsla(215, 65%, 53%, 0.55), hsl(191, 100%, 50%, 0.55)), url(../img/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
-    
 }
 .contenedor-texto{
-    position: relative;
-    top: 2em;
     height: 15rem;
     text-align: center;
     font-family: 'Akaya Telivigala', cursive;
 }
 .contenedor-texto h2{
-    font-size: 3em;
+    font-size: 2em;
 }
 .texto{
-    color: blue;
-    font-size: 3em;
+    color: #FFF;
+    font-size: 2em;
 }
 .contenedor-texto p{
-    font-size: 3.2em;
+    font-size: 2em;
 }
 .contenedor-texto h1{
-    font-size: 4em;
+    font-size: 2.8em;
     text-transform: uppercase;
 }
 
@@ -79,70 +76,112 @@ header{
     background: linear-gradient(to bottom,#b92b27, #1565C0);
 }
 .fp-controlArrow.fp-prev{
+    position: absolute;
+    top: 29rem;
     border-width: 20px 20px 20px 0;
     border-color: transparent #000 transparent transparent;
 }
-.fp-controlArrow.fp-prev:hover{
-    border-width: 21px 21px 21px 0;
-}
 .fp-controlArrow.fp-next{
+    position: absolute;
+    top: 29rem;
     border-width: 20px 0px 20px 20px;
     border-color: transparent  transparent transparent #000; 
 }
-.fp-controlArrow.fp-next:hover{
-    border-width: 21px 0px 21px 21px;
-}
 .info{
     position: relative;
-    left: 4em;
-    top: 10em;
-    width: 25em;
+    top: 16em;
+    width: 100%;
     height: 10em;
     text-align: center;
 }
 .info h2{
-    font-size: 2em;
-    padding: 0 0 1em 0;
+    font-size: 1.3em;
+    padding: 0 0 0.2em 0;
 }
 .imagen{
     position: relative;
-    left:35em;
-    top: -5em;
-    width: 23em;
-    height: 23em;
-    border-radius: 400px;
+    bottom: 9.5em;
+    width: 85%;
+    height: 15em;
+    margin: auto;
+    border-radius: 1000px;
 }
 .imagen img{
-    width: 23em;
-    height: 23em;
-    border-radius: 400px;
-    border: 2px solid #000;
+    width: 100%;
+    height: 15em;
+    border-radius: 1000px;
+    border: 2px solid #000;   
 }
 
-/*FOOTER-PERFIL Y REDES*/
-footer .perfil{
+/*FOOTER-REDES*/
+footer{
+    text-align: center;
+}
+footer h2{
+    font-size: 2em;
+}
+footer .redes a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 1em 1em 0 1em;
+}
+.redes a .fab{
+    font-size: 4em;
+}
+.redes .facebook i,
+.redes .instagram i,
+.redes .whatsapp i{
+    color: #c2c2c2;
+}
+.redes .facebook i:hover{
+    color: #3b5998;
+    transition: color 1s linear 0.1s;
+}
+.redes .instagram i:hover{
+    color: #c13584;
+    transition: color 1s linear 0.1s;
+}
+.redes .whatsapp i:hover{
+    color: #00bb2d;
+    transition: color 1s linear 0.1s;
+}
+footer .enlace-perfil{
+    position: relative;
+    top: 10em;
+}
+.enlace-perfil a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*ENLACE PERFIL*/
+/*PERFIL*/
+.perfil{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -4em;
+    top: 4em;
 }
-footer .perfil img{
+.perfil img{
     width: 15em;
     height: 10em;
     margin: 2em;
-    border-radius: 1em;
+    border-radius: 1.5em;
+    border: 2px solid #000;
 }
-footer .perfil article{
+.perfil article{
     width: 30em;
 }
-footer .perfil article h2{
+.perfil article h3{
     font-size: 1.5em;
     padding-bottom: 0.8em;
     padding-right: 1em;
     text-align: right;
 }
-footer .perfil article p{
+.perfil article p{
     padding-right: 1em;
     text-align: right;
 }
