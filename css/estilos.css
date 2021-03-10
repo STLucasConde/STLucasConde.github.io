@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 
+/*ELIMINAR MARGENES POR DEFECTO*/
 *{
     margin:0;
     padding: 0;
@@ -9,6 +10,13 @@
 }
 
 
+/*SCROLL*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*FONDO*/
 body{
     background: #00d2ff;
     background: -webkit-linear-gradient(to left, hsla(215, 65%, 53%, 0.55), hsl(191, 100%, 50%, 0.55)), url(../img/fondo.jpg);
@@ -18,6 +26,7 @@ body{
 }
 
 
+/*MENU*/
 header {
     background: linear-gradient(to left, rgb(57, 122, 213), rgb(0, 208, 255));
     -webkit-box-shadow: 0px 10px 10px -6px rgba(0,0,0,0.75);
@@ -50,6 +59,7 @@ header nav ul li:hover {
 }
 
 
+/*CONTENEDOR DE TODO*/
 .contenedor{
     width: 100%;
     max-width: 1600px;
@@ -64,6 +74,7 @@ header nav ul li:hover {
 }
 
 
+/*INICIO*/
 #inicio{
     width: 100%;
     grid-area: inicio;
@@ -83,6 +94,7 @@ header nav ul li:hover {
 }
 
 
+/*GALERIA*/
 #catalogo {
     width: 95%;
     grid-area: catalogo;
@@ -115,6 +127,7 @@ header nav ul li:hover {
     vertical-align: top;
     object-fit: cover;
 }
+/*IMAGENES GRANDES*/
 .escalagaleria{
     position: fixed;
     top:0;
@@ -137,6 +150,7 @@ header nav ul li:hover {
 .escalagaleria:target{
     transform: scale(1);
 }
+/*BOTONES DE GALERIA*/
 .cerrar{
     display: inline-block;
     position: absolute;
@@ -168,6 +182,7 @@ header nav ul li:hover {
 }
 
 
+/*CONTACTO*/
 #contacto{
     grid-area: contacto;
     display: flex;
@@ -175,6 +190,7 @@ header nav ul li:hover {
     align-items: center;
     text-align: center;
 }
+/*TITULO E ICONOS DE REDES*/
 .redes{
     width: 70%;
     margin: auto;
@@ -207,6 +223,7 @@ a .fa-youtube:hover{
     transform: scale(1.2);
     transition: ease 1s;
 }
+/*PERFIL Y TALLER*/
 .otros{
     width: 100%;
     display: flex;
@@ -218,6 +235,7 @@ a .fa-youtube:hover{
     color: #000;
     border-radius: 5px;
 }
+
 
 /*ADAPTACION A DISPOSITIVOS*/
 @media (max-width: 480px) {
