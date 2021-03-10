@@ -7,98 +7,89 @@
     <title>DecoTriangulos</title>
     <link rel="shortcut icon" href="img/icono.svg">
     <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    
-
 </head>
 <body>
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="#inicio">inicio</a>
-            </li>
-            <li>
-                <a href="#catalogo">catalogo</a>
-            </li>
-            <li>
-                <a href="#contacto">contacto</a>
-            </li>
-        </ul>
-    </nav>
-    <main id="fullpage">
-        <header class="section">
-            <div class="contenedor-texto">
-                <h1>En DecoTriangulos tenemos <br>
-                        <span class="typed"></span>
-                </h1>
-                <h2>unico y original</h2>
+    <header>
+        <section class="wrapper">
+              <nav>
+                  <ul>
+                      <li><a href="#inicio">Inicio</a></li>
+                      <li><a href="#catalogo">Catalogo</a></li>
+                      <li><a href="#contacto">Contacto</a></li>
+                  </ul>
+          </nav>
+          </section>
+      </header>
+
+    <main class="contenedor contenido">
+        <section id="inicio">
+            <div class="slogan">
+                <h1>En DecoTriangulos tenemos<br>los mejores souvenir para tus eventos.</h1>
+                    <br>
+                <h2>unicos y originales</h2>
             </div>
-        </header>
-
-        <section class="section catalogo">
-            <article class="slide">
-                <div class="imagen">
-                    <img src="img/cisne1.jpg" alt="cisne de papel, 400 piezas">
-                </div>
-                <div class="info">
-                    <h2>CISNE 400 piezas</h2>
-                    <p>Cada pieza tiene 2cm ancho x 5cm alto aproximadamente.<br>
-                        La figura del cisne completa mide 10cm ancho x 13cm alto x 15cm de profundidad. 
-                    </p>
-                </div>
-            </article>
-
-            <article class="slide">
-                <div class="imagen">
-                    <img src="img/cisne1.jpg" alt="cisne de papel, 400 piezas">
-                </div>
-                <div class="info">
-                    <h2>CISNE 400 piezas</h2>
-                    <p>Cada pieza tiene 2cm ancho x 5cm alto aproximadamente.<br>
-                        La figura del cisne completa mide 10cm ancho x 13cm alto x 15cm de profundidad. 
-                    </p>
-                </div>
-            </article>
-
-            <article class="slide">
-                <div class="imagen">
-                    <img src="img/cisne1.jpg" alt="cisne de papel, 400 piezas">
-                </div>
-                <div class="info">
-                    <h2>CISNE 400 piezas</h2>
-                    <p>Cada pieza tiene 2cm ancho x 5cm alto aproximadamente.<br>
-                        La figura del cisne completa mide 10cm ancho x 13cm alto x 15cm de profundidad. 
-                    </p>
-                </div>
-            </article>
         </section>
-
-        <footer class="section">
-            <h2>Medios de Contacto</h2>
-            <p class="redes">
-                <a href="#" class="facebook">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#" class="instagram">
-                    <i class="fab fa-instagram-square"></i>
-                </a>
-                <a href="#" class="whatsapp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-            </p>
-            <div class="enlace-perfil">
-                <a href="enlaces/perfil.html" >¿Quién soy?</a>
+        <section id="catalogo">
+            <div class="contenedor-galeria">
+                <a href="#imagen1"><img src="img/cisne1.jpg"></a>
+                <a href="#imagen2"><img src="img/cisne2.jpg"></a>
+                <a href="#imagen3"><img src="img/cisne3.jpg"></a>
+                <a href="#imagen4"><img src="img/cisne4.jpg"></a>
+                <a href="#imagen5"><img src="img/cisne5.jpg"></a>
+                <a href="#imagen6"><img src="img/cisne6.jpg"></a>
             </div>
+        </section>
+            <article class="escalagaleria" id="imagen1">
+                <img src="img/cisne1.jpg" alt="">
+                <a href="#imagen6" class="atras"><i class="fas fa-arrow-alt-circle-left"></i></a>
+                <a href="#imagen2" class="adelante"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                <a href="#catalogo" class="cerrar"><i class="fas fa-times-circle"></i></a>
+            </article>
+            <article class="escalagaleria" id="imagen2">
+                <img src="img/cisne2.jpg" alt="">
+                <a href="#imagen6" class="atras"><i class="fas fa-arrow-alt-circle-left"></i></a>
+                <a href="#imagen3" class="adelante"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                <a href="#catalogo" class="cerrar"><i class="fas fa-times-circle"></i></a>
+            </article>
+            <article class="escalagaleria" id="imagen3">
+                <img src="img/cisne3.jpg" alt="">
+                <a href="#imagen6" class="atras"><i class="fas fa-arrow-alt-circle-left"></i></a>
+                <a href="#imagen4" class="adelante"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                <a href="#catalogo" class="cerrar"><i class="fas fa-times-circle"></i></a>
+            </article>
+            <article class="escalagaleria" id="imagen4">
+                <img src="img/cisne4.jpg" alt="">
+                <a href="#imagen6" class="atras"><i class="fas fa-arrow-alt-circle-left"></i></a>
+                <a href="#imagen5" class="adelante"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                <a href="#catalogo" class="cerrar"><i class="fas fa-times-circle"></i></a>
+            </article>
+            <article class="escalagaleria" id="imagen5">
+                <img src="img/cisne5.jpg" alt="">
+                <a href="#imagen6" class="atras"><i class="fas fa-arrow-alt-circle-left"></i></a>
+                <a href="#imagen6" class="adelante"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                <a href="#catalogo" class="cerrar"><i class="fas fa-times-circle"></i></a>
+            </article>
+            <article class="escalagaleria" id="imagen6">
+                <img src="img/cisne6.jpg" alt="">
+                <a href="#imagen6" class="atras"><i class="fas fa-arrow-alt-circle-left"></i></a>
+                <a href="#imagen1" class="adelante"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                <a href="#catalogo" class="cerrar"><i class="fas fa-times-circle"></i></a>
+            </article>
+        <footer id="contacto">
+            <article class="redes">
+                <h2>Nuestras Redes</h2>
+                <div class="iconos">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="otros">
+                    <a href="#">¿QUIÉN SOY?</a>
+                    <a href="#">TALLER</a>
+                </div>
+            </article>
         </footer>
     </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
-    <script src="js/fullpage.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="js/escritura.js"></script>
-
-
 </body>
 </html>
