@@ -1,3 +1,4 @@
 # STLucasConde.github.io
 
-Repositorio para la pagina Origami
+PÁGINA HECHA PARA MOSTRAR CATALOGO DE ORIGAMI 3D.
+HECHO POR LUCAS EZEQUIEL CONDE. 
