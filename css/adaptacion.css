@@ -1,0 +1,478 @@
+/*INDEX*/
+@media (max-width: 800px){
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 10em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1em;
+        padding: 0.2em .6em;
+    }
+    .grid .item img{
+        width: 60%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+
+    /*-----------------------*/
+
+    .info{
+        margin-top: 5em;
+    }
+    .imgfoto{
+        margin-top: 8em;
+    }
+}
+
+
+@media (max-width: 768px){
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 10em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1em;
+        padding: 0.2em .6em;
+    }
+    .grid .item img{
+        height: 80%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em 1em;
+        font-size: 3.4em;
+    }
+
+    /*-----------------------*/
+
+    .info{
+        margin-top: 4.5em;
+        height: auto;
+    }
+    .imgfoto{
+        margin-top: 8em;
+    }
+}
+
+
+@media (max-width: 640px){
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 10em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1em;
+        padding: 0.2em .6em;
+    }
+    .grid .item img{
+        height: 80%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+
+    /*-----------------------*/
+
+    .info{
+        width: 95%;
+        margin: 4.3em auto 0 auto;
+        height: auto;
+        font-size: 1em;
+    }
+    .info p{
+        font-size: 1.2em;
+    }
+    .imgfoto{
+        margin: auto;
+        margin-top: 7em;
+    }
+    .imgfoto img{
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 600px){
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 10em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1em;
+        padding: 0.2em .6em;
+    }
+    .grid .item img{
+        height: 80%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+
+    /*-----------------------*/
+
+    .contenedor-perfil{
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 300px;
+        grid-template-areas: "foto"
+                                "info";
+    }
+    .imgfoto{
+        margin: 2em auto;
+    }
+    .imgfoto img{
+        width: 50%;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 576px){
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 10em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1em;
+        padding: 0.2em .6em;
+    }
+    .grid .item img{
+        height: 80%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+
+    /*-----------------------*/
+
+    .contenedor-perfil{
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 300px;
+        grid-template-areas: "foto"
+                                "info";
+    }
+    .imgfoto{
+        margin: 3em auto;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px){
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 7em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4.5em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1.2em;
+        padding: 0.2em 1.1em;
+    }
+    .grid .item img{
+        width: 80%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+    
+    /*-----------------------*/
+
+    .contenedor-perfil{
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 300px;
+        grid-template-areas: "foto"
+                             "info";
+    }
+    .imgfoto{
+        margin: 3em auto;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 320px){
+    *{
+        font-size: 14px;
+    }
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        font-size: 0.9em;
+        margin: 7em auto;
+    }
+    /*CATALOGO*/
+    .contenedor-categorias{
+        margin: 4.5em auto;
+    }
+    .titulo-catalogo{
+        margin-bottom: 0px;
+        font-size: .7em;
+    }
+    #catalogo .categorias a{
+        font-size: 1.2em;
+        padding: 0.2em 1.1em;
+    }
+    .grid .item img{
+        width: 100%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+
+    /*-----------------------*/
+
+    .contenedor-perfil{
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: "foto"
+                             "info";
+    }
+    .imgfoto{
+        height: 150px;
+        margin: 8em auto;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 240px){
+    *{
+        font-size: 12px;
+    }
+    /*MENU*/
+    header nav {
+        float:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav ul li a {
+        padding: 1.3em;
+    }
+    /*INICIO*/
+    #inicio .slogan{
+        margin: 6em auto;
+    }
+    /*CATALOGO*/
+    .titulo-catalogo{
+        margin-bottom: 10px;
+        font-size: .6em;
+    }
+    .categorias{
+        height: 170px;
+    }
+    #catalogo .categorias a{
+        padding: 0.2em 0em;
+    }
+    .grid .item img{
+        width: 100%;
+    }
+    /*CONTACTO*/
+    .redes{
+        width: 95%;
+        height: 70%;
+    } 
+    .redes h2{
+        font-size: 2em;
+    }
+    .redes .iconos i{
+        margin: 1em .3em;
+        font-size: 3em;
+    }
+
+    /*-----------------------*/
+
+    .contenedor-perfil{
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 300px;
+        grid-template-areas: "foto"
+                             "info";
+    }
+    .imgfoto{
+        height: 150px;
+        margin: 4em auto;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

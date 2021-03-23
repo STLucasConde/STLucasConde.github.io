@@ -1,0 +1,54 @@
+/*CONTENEDOR DE LA PAGINA PERFIL*/
+.contenedor-perfil{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "info foto";
+}
+
+
+/*SECCION INFO*/
+.info{
+    width: 90%;
+    height: auto;
+    grid-area: info;
+    margin: auto;
+    margin-top: 10em;
+    background: rgba(0,0,0,0.5);
+    border-radius: 1em;
+    padding: 1em;
+    color: #FFF;
+    -webkit-text-stroke: .2px #000;
+}
+.info h3{
+    font-size: 2em;
+    text-align: left;
+    padding-left: 0.5em ;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.info p{
+    text-align: left;
+    font-size: 1.3em;
+    padding: 0.5em;
+    padding-left: 1.5em;
+}
+
+
+/*FOTO DE PERFIL*/
+.imgfoto{
+    grid-area: foto;
+    height: 300px;
+    margin: auto;
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgfoto img{
+    width: 70%;
+    border-radius: 1em;
+}
