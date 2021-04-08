@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACERCA DE</title>
+    <link rel="shortcut icon" href="../img/icono.svg">
+    <link rel="stylesheet" href="../css/acerca.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+    <header class="contenedor-menu" id="contenedor-menu">
+        <p class="btn-abrir-menu" id="btn-abrir-menu">
+            <i class="fas fa-align-justify"></i>
+        </p>
+        <nav class="elementos-navegacion">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="acerca.html">ACERCA DE</a></li>
+                <li><a href="../index.html#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-perfil">
+        <section class="info">
+            <div class="caja-info">
+                <h3>Lucas Conde</h3>
+                <p>Soy desarrollador y diseñador de varias páginas web en internet.<br>
+                    Tengo un hobbies, el cual es hacer figuras en Origami 3D: Cisnes, jarrones, floreros, serpientes, y algunas figuras más.<br>
+                    Estas figuras gustan mucho, son originales y además tienen un llamativo toque decorativo para eventos, tanto como suvenir, como centro de mesa. 
+                </p>
+            </div>
+        </section>
+        <section class="imgfoto">
+            <img src="../img/perfil.jpg" alt="foto de perfil del creador del sitio web DecoTriangulos">
+        </section>
+    </main>
+
+    <script>
+        const menu = document.getElementById('btn-abrir-menu');
+        menu.addEventListener('click', () => {
+            document.getElementById('contenedor-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

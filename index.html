@@ -8,20 +8,20 @@
     <link rel="shortcut icon" href="img/icono.svg">
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="css/adaptacion.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <section class="wrapper">
-              <nav>
-                  <ul>
-                      <li><a href="#inicio">Inicio</a></li>
-                      <li><a href="#catalogo">Catalogo</a></li>
-                      <li><a href="#contacto">Contacto</a></li>
-                  </ul>
-          </nav>
-          </section>
+    <header class="contenedor-menu" id="contenedor-menu">
+        <p class="btn-abrir-menu" id="btn-abrir-menu">
+            <i class="fas fa-align-justify"></i>
+        </p>
+        <nav class="elementos-navegacion">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="enlaces/acerca.html">ACERCA DE</a></li>
+                <li><a href="index.html#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="contenedor contenido">
@@ -85,16 +85,16 @@
 		</section>
 
         <footer id="contacto">
-            <article class="redes">
-                <h2>Nuestras Redes</h2>
+            <article class="caja">
+                <h2>Contacto</h2>
+                <p>stlucasconde@gmail.com</p>
                 <div class="iconos">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram-square"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="otros">
-                    <a href="enlaces/perfil.html">¿QUIÉN SOY?</a>
-                    <a href="#">TALLER</a>
+                    <a href="enlaces/acerca.html">ACERCA DE</a>
                 </div>
             </article>
         </footer>
@@ -103,5 +103,11 @@
     <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
     <script src="js/catalogo.js"></script>
+    <script>
+        const menu = document.getElementById('btn-abrir-menu');
+        menu.addEventListener('click', () => {
+            document.getElementById('contenedor-menu').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>

@@ -1,5 +1,9 @@
 /*CONTENEDOR DE TODO*/
 .contenedor{
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to left, hsla(215, 65%, 53%, 0.55), hsl(191, 100%, 50%, 0.55)), url(../img/fondo.jpg);
+    background: linear-gradient(to left, hsla(215, 65%, 53%, 0.55), hsl(191, 100%, 50%, 0.55)), url(../img/fondo.jpg);
+    background-attachment: fixed;
     width: 100%;
     max-width: 1600px;
     overflow: hidden;
@@ -147,7 +151,7 @@
     text-align: center;
 }
 /*TITULO E ICONOS DE REDES*/
-.redes{
+.caja{
     width: 70%;
     margin: auto;
     margin-top: 8em;
@@ -158,12 +162,17 @@
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
     padding: 2em;
 }
-.redes h2{
+.caja h2{
     display: block;
     font-size: 3em;
     font-family: 'Akaya Telivigala', cursive;
 }
-.redes .iconos i{
+.caja p{
+    font-size: 2.5em;
+    padding: 1em 0;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.caja .iconos i{
     margin: 1em 2em;
     font-size: 3em;
 }
@@ -173,16 +182,17 @@
 .iconos a .fa-instagram-square{
     color: #d6249f;
 }
-.iconos a .fa-youtube{
-    color:#c4302b
+.iconos a .fa-linkedin{
+    color:#0e76a8
 }
 a .fa-facebook:hover,
 a .fa-instagram-square:hover,
-a .fa-youtube:hover{
+a .fa-linkedin:hover{
     transform: scale(1.2);
     transition: ease 0.7s;
 }
-/*PERFIL Y TALLER*/
+
+/*ACERCA DE*/
 .otros{
     width: 100%;
     display: flex;
